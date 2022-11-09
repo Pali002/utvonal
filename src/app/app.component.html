@@ -1,18 +1,15 @@
 <div class="container">
   <h1>Routing</h1>
-  <nav>
-    <ul>
-      <li>
-        <a routerLink="/product">Termékek</a>
-      </li>
-      <li>
-        <a routerLink="/employee">Dolgozók</a>
-      </li>
-      <li>
-        <a routerLink="/shop">Bolt</a>
-      </li>
-    </ul>
-  </nav>
-
+  <ul class="nav">
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/product">Termékek</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/employee">Dolgozók</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" routerLink="/shop">Bolt</a>
+    </li>
+  </ul>
   <router-outlet></router-outlet>
 </div>
